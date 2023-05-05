@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Expense Tracker",
+    "\\Expense Tracker\\Views",
+    "\\Expense Tracker\\Views\\Category",
+    "\\Expense Tracker\\Views\\Dashboard",
+    "\\Expense Tracker\\Views\\Home",
+    "\\Expense Tracker\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Expense Tracker\\Views\\Dashboard\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

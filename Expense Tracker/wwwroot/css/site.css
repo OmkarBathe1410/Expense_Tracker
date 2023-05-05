@@ -30,7 +30,7 @@ body {
 
 /*main-content*/
 .main-content{
-    margin-left: 290px;
+    /*margin-left: 290px;*/
 }
 
 /*BreadCrumb*/
@@ -185,5 +185,5 @@ body {
     }
 
     .widget.chart {
-        padding: 20px;
+        padding: 5px;
     }
