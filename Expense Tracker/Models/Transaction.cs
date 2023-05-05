@@ -10,10 +10,12 @@ namespace Expense_Tracker.Models
         public int TransactionId { get; set; }
 
         // Category of transaction (FKey)
+        [Range(1, int.MaxValue, ErrorMessage = "Please select a category!")]
         public int CategoryId { get; set; }
         public Category? Category { get; set; } // To create a navigation property.
 
         // Transaction amount
+        [Range(1, int.MaxValue, ErrorMessage = "Amount should be greater than ZERO!")]
         public int Amount { get; set; }
 
         // To specify the description of the transaction '?'=> It can be null.

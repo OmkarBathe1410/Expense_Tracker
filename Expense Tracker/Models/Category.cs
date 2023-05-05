@@ -11,6 +11,7 @@ namespace Expense_Tracker.Models
 
         // Title of the category
         [Column(TypeName = "nvarchar(50)")]
+        [Required(ErrorMessage = "Title is required!")]
         public string Title { get; set; } 
 
         // Category will be identified by this icon
