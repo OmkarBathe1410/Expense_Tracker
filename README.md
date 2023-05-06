@@ -3,7 +3,7 @@ A project built using ASP.NET Core
 
 STEP-1:
 We created a project using ASP.NET Web Template (MVC).
-STEP-2:
+\nSTEP-2:
 We install some packages: 
 -	Microsoft.EntityFrameworkCore (6.0.15)
 -	Microsoft.EntityFrameworkCore.SqlServer (6.0.15)
